@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+:root {
+    --topneon-:rgb(20, 42, 238);
+}
+
+#headbody {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px var(--topneon-),
+                 0 0 20px var(--topneon-),
+                 0 0 30px var(--topneon-),
+                 0 0 40px var(--topneon-),
+                 0 0 50px var(--topneon-);   
+}
+
+.hnavbody {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.hnavbody button {
+    border-radius: 10px ;
+    background-color: cadetblue;
+}
+
+.one {
+    padding-left: 800px;
+} 
+
+#two{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-right: 140px;
+}
+
+#tree {
+    padding-left: 400px;
+}
